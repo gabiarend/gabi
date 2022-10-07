@@ -1,0 +1,103 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.2rem;
+  color: #EC7272;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #FA9494;
+  font-weight: normal;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-top: 2px solid;
+  width: 35%;
+  color: #FA9494;
+}
+/********CLASS TAG********/
+
+.top-birds {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.head-container {
+  background-color: #E8F9FD;
+  padding-top: 100px;
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #E8F9FD;
+  padding-bottom: 50px;
+  margin-top: 30px;
+  padding: 30px;
+
+}
+
+.social-icon {
+  color: #f57d7d;
+  transition: 0.2s;
+  margin: 0 5px;
+  font-size: 35px;
+}
+
+.social-icon:hover {
+  color: #ffbaba;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.flower-top {
+  float: left;
+  margin-right: 30px;
+}
+
+.flower-bottom {
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #ffbaba;
+  background-image: linear-gradient(top, #ffbaba, #f57d7d);
+  background-image: linear-gradient(to bottom, #ffbaba, #f57d7d);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #edbebf;
+  background-image: linear-gradient(top, #edbebf, #edbebf);
+  background-image: linear-gradient(to bottom, #edbebf, #edbebf);
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 0.75rem;
+}
